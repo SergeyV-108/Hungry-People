@@ -204,7 +204,7 @@ body {
     overflow: auto;
     -webkit-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
   }
   .header__nav.active {
     left: 0;
