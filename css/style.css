@@ -328,12 +328,6 @@ body {
   background-size: cover;
 }
 
-@media (max-width: 768px) {
-  .intro {
-    height: 100%;
-  }
-}
-
 @media (max-width: 580px) {
   .intro {
     padding-top: 300px;
