@@ -323,7 +323,7 @@ body {
   background-image: url(../image/intro/header-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 @media (max-width: 768px) {
