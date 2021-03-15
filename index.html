@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hungry People</title>
+	<!-- подключение иконок -->
+	<script src="https://kit.fontawesome.com/9e73be8edf.js" crossorigin="anonymous"></script>
+
+	<!-- подключение стилей -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!-- header -->
+
+		<header class="header">
+			<div class="header__inner">
+				<nav class="header__nav">
+					<div class="header__item">
+						<a href="#" class="header__link" data-scroll="#intro">HOME</a>
+						<a href="#" class="header__link" data-scroll="#about">ABOUT</a>
+						<a href="#" class="header__link" data-scroll="#team">TEAM</a>
+						<a href="#" class="header__link" data-scroll="#booking">BOOKING</a>
+					</div>
+					<div class="header__item">
+						<a href="#" class="header__link" data-scroll="#menu">MENU</a>
+						<a href="#" class="header__link" data-scroll="#galerie">GALERIE</a>
+						<a href="#" class="header__link" data-scroll="#events">EVENTS</a>
+						<a href="#" class="header__link" data-scroll="#contact">CONTACT</a>
+					</div>
+				</nav>
+				<div class="header__burger burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</header>
+
+		<!-- intro -->
+
+		<div class="intro" id="intro">
+			<div class="intro__inner">
+				<div class="intro__upper">
+					<div class="intro__column intro__column_1">
+						<div class="intro__schedule">
+							Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+						</div>
+					</div>
+					<div class="intro__column intro__column_2">
+						<h4 class="section__title">RESTAURANT</h4>
+						<h1 class="intro__title">hungry people</h1>
+						<div class="intro__buttons">
+							<a href="#" class="intro__button" data-scroll="#booking">BOOK TABLE</a>
+							<a href="#" class="intro__button" data-scroll="#menu">EXPLORE</a>
+						</div>
+					</div>
+					<div class="intro__column intro__column_3">
+						<a href="#" class="intro__link"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="intro__link"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="intro__link"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="intro__down-btn">
+					<a href="#about" data-scroll="#about"><i class="fas fa-angle-down"></i></a>
+				</div>
+			</div>
+		</div> <!-- intro -->
+
+		<!-- about -->
+
+		<section class="about" id="about">
+			<div class="container">
+				<div class="inner about__inner">
+					<div class="item">
+						<h2 class="title about__title">about us</h2>
+						<div class="subtitle about__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Duis at velit
+							maximus, molestie est a, tempor magna.</div>
+						<div class="text about__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+							posuere.
+							Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros,
+							a
+							sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
+							facilisis semper laoreet.</div>
+					</div>
+					<div class="item">
+						<div class="image image_right about__image">
+							<img src="image/about/475.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!-- about -->
+
+		<!-- team -->
+
+		<section class="team" id="team">
+			<div class="line">
+				<div class="container">
+					<h4 class="section__title team__suptitle">OUR TEAM</h4>
+					<div class="inner">
+						<div class="item">
+							<div class="image image_left team__image">
+								<img src="image/team/475.png" alt="">
+							</div>
+						</div>
+						<div class="item">
+							<h2 class="title team__title">MASTER CHEF</h2>
+							<div class="subtitle team__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit.
+								Duis at velit
+								maximus, molestie est a, tempor magna.</div>
+							<div class="text team__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+								posuere.
+								Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula
+								eros,
+								a
+								sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
+								facilisis semper laoreet.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!-- team -->
+
+		<!-- book  -->
+
+		<section class="book" id="booking">
+			<div class="container">
+				<div class="inner">
+					<div class="item">
+						<h2 class="title book__title">book a table</h2>
+						<form class="book__form">
+							<div class="book__input">
+								<input type="text" placeholder="Name">
+								<input type="email" placeholder="Email">
+								<input type="tel" placeholder="Phone">
+								<input type="text" placeholder="People" list="people">
+								<input type="text" placeholder="Date (mm/dd)">
+								<input placeholder="Time" list="time">
+							</div>
+							<button type="submit">BOOK NOW</button>
+						</form>
+						<datalist id="people">
+							<option value="Текст1">
+							<option value="Текст2">
+							<option value="Текст3">
+						</datalist>
+						<datalist id="time">
+							<option value="Текст1">
+							<option value="Текст2">
+							<option value="Текст3">
+						</datalist>
+					</div>
+					<div class="item">
+						<div class="image image_right book__image">
+							<img src="image/book/475.png" alt="">
+						</div>
+					</div>
+				</div> <!-- inner -->
+				<div class="book__schedule">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726
+					458 782</div>
+			</div> <!-- container -->
+		</section> <!-- book  -->
+
+		<!--  specialties -->
+
+		<section class="specialties">
+			<div class="line">
+				<div class="container">
+					<h4 class="section__title specialties__suptitle">specialties</h4>
+					<div class="inner">
+						<div class="item">
+							<div class="image image_left specialties__image">
+								<img src="image/specialties/475.png" alt="">
+							</div>
+						</div>
+						<div class="item">
+							<h2 class="title specialties__title">chocolate pancakes</h2>
+							<div class="subtitle specialties__subtitle">Lorem ipsum dolor sit amet, consectetur
+								adipiscing
+								elit.
+								Duis at velit
+								maximus, molestie est a, tempor magna.</div>
+							<div class="text specialties__text">Integer ullamcorper neque eu purus euismod, ac faucibus
+								mauris
+								posuere.
+								Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula
+								eros,
+								a
+								sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla
+								facilisis semper laoreet.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> <!--  specialties -->
+
+		<!--  menu -->
+
+		<section class="menu" id="menu">
+			<div class="container">
+				<div class="menu__content">
+					<h2 class="title">DELICIOUS MENU</h2>
+					<div class="subtitle menu__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Duis at velit
+						maximus, molestie est a, tempor magna.</div>
+					<nav class="menu__tab">
+						<button class="menu__btn" type="button" data-tab="#list_01">SOUPE</button>
+						<button class="menu__btn" type="button" data-tab="#list_02">PIZZA</button>
+						<button class="menu__btn" type="button" data-tab="#list_03">PASTA</button>
+						<button class="menu__btn" type="button" data-tab="#list_04">DESERT</button>
+						<button class="menu__btn" type="button" data-tab="#list_05">WINE</button>
+						<button class="menu__btn" type="button" data-tab="#list_06">BEER</button>
+						<button class="menu__btn" type="button" data-tab="#list_07">DRINKS</button>
+					</nav>
+					<div class="menu__cards">
+						<div id="list_01" class="menu__card">
+							<ul class="menu__list">
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">SOUPE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div id="list_02" class="menu__card">
+							<ul class="menu__list">
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PIZZA QUATRO STAGIONI . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div id="list_03" class="menu__card">
+							<ul class="menu__list">
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">PASTA . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div id="list_04" class="menu__card">
+							<ul class="menu__list">
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DESERT . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div id="list_05" class="menu__card">
+							<ul class="menu__list">
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">WINE . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div id="list_06" class="menu__card">
+							<ul class="menu__list">
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">BEER . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div id="list_07" class="menu__card">
+							<ul class="menu__list">
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									<table class="menu__item item-menu">
+										<tr>
+											<td class="item-menu__name">DRINKS . . . .</td>
+											<td class="item-menu__price">55,68 USD</td>
+										</tr>
+										<tr>
+											<td class="item-menu__details" colspan="2">Integer ullamcorper neque eu
+												purus euismod</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</div>
+					</div> <!-- menu__pages -->
+				</div>
+			</div>
+		</section> <!--  menu -->
+
+		<!--  private -->
+
+		<section class="private" id="events">
+			<div class="line">
+				<div class="container">
+					<h4 class="section__title private__suptitle">PRIVATE EVENTS</h4>
+					<div class="inner">
+						<div class="item">
+							<div class="image image_left private__image-left">
+								<img src="image/private/2.png" alt="">
+								<h3 class="private__title private__title_l">weddings</h3>
+							</div>
+						</div>
+						<div class="item">
+							<div class="image image_right private__image-right">
+								<h3 class="private__title private__title_r">
+									<span>corporate pzrties</span>
+								</h3>
+								<img src="image/private/3.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="private__schedule">For private events please call: +40 729 131 637/+40 726 458 782 or
+						use the contact form.</div>
+				</div>
+			</div>
+		</section> <!--  private -->
+
+		<!-- galerie -->
+
+		<div class="galerie" id="galerie">
+			<div class="galerie__images">
+				<div class="galerie__item">
+					<img src="image/galerie/1.jpg" alt="">
+				</div>
+				<div class="galerie__item">
+					<img src="image/galerie/2.jpg" alt="">
+				</div>
+				<div class="galerie__item">
+					<img src="image/galerie/3.jpg" alt="">
+				</div>
+				<div class="galerie__item">
+					<img src="image/galerie/4.jpg" alt="">
+				</div>
+			</div>
+		</div> <!--  galerie -->
+
+		<!--  contact -->
+
+		<section class="contact" id="contact">
+			<div class="container">
+				<div class="menu__content">
+					<h2 class="title">CONTACT</h2>
+					<div class="subtitle menu__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Duis at velit
+						maximus, molestie est a, tempor magna.</div>
+				</div>
+				<form class="contact__form">
+					<div class="contact__input">
+						<input type="text" placeholder="Name">
+						<input type="email" placeholder="Email">
+						<input type="tel" placeholder="Phone">
+						<textarea name="message" placeholder="Message"></textarea>
+					</div>
+					<div class="contact__down">
+						<div class="contact__data">
+							<span><i class="fas fa-map-marker-alt"></i>5th London Boulevard, U.K.</span>
+							<span><i class="fas fa-phone"></i>+40 729 131 637/+40 726 458 782</span>
+							<span><i class="fas fa-envelope"></i>office@mindblister.com</span>
+						</div>
+						<div class="contact__btn">
+							<button type="submit">SEND MESSAGE</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<!-- map -->
+
+		<div class="map">
+			<div class="map__images">
+				<a href="https://www.google.com/maps/@45.5627564,-122.6813563,14.08z?hl=ru-RU"><img src="image/map/1.jpg" alt=""></a>
+			</div>
+		</div> <!--  map -->
+
+		<!-- footer -->
+
+		<footer class="footer">
+			<p class="footer__copy">© Copyright Mindblister 2019</p>
+		</footer>
+	</div>
+
+	<!--подключение библиотеки jQwery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!--подключение файла JS-->
+	<script src="js/app.js"></script>
+</body>
+
+</html>
