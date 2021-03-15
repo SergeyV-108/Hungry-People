@@ -322,6 +322,7 @@ body {
   padding: 325px 0 80px;
   background-color: #52531b;
   background-image: url(../image/intro/header-bg.jpg);
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
