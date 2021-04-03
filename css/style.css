@@ -555,8 +555,7 @@ body {
 
 .page__intro {
   width: 100%;
-  background-color: #52531b;
-  background-image: url(../image/intro/header-bg.jpg);
+  background-image: url(../image/intro/intro-bg.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
