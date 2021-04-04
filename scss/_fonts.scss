@@ -1,0 +1,16 @@
+/* шрифты */
+
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+/* font-family: 'Banny'; */
+
+@font-face {
+	font-family: "Banny";
+	src: url("../fonts/Banny/Banny-Round.eot");
+	src: url("../fonts/Banny/Banny-Round.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Banny/Banny-Round.woff") format("woff"), url("../fonts/Banny/Banny-Round.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
