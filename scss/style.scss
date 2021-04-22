@@ -1,0 +1,234 @@
+@import "_fonts";
+@import "_nullstyle";
+
+body {
+	font-family: "Open Sans", sans-serif;
+
+	@media (max-width: 580px) {
+		// блокировка скрола при открытом меню nav
+		&.lock {
+			overflow: hidden;
+		}
+	}
+}
+
+.fullscreen {
+	min-height: 100vh;
+	display: flex;
+}
+
+.container {
+	min-width: 0; // для корректной работы внутри FLEX-элемента
+	flex: 1 1 auto;
+	max-width: 1310px;
+	margin: 0 auto;
+	padding: 50px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	@media (max-width: 580px) {
+		padding: 20px 10px;
+	}
+}
+
+.line {
+	&::before {
+		content: "";
+		width: 1px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 23%;
+
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	&::after {
+		content: "";
+		width: 1px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		right: 23%;
+
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+}
+
+.section {
+	&__title {
+		margin-top: 30px;
+
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 14px;
+		letter-spacing: 0.5em;
+		text-transform: uppercase;
+		text-align: center;
+
+		color: #ffffff;
+	}
+}
+
+.inner {
+	width: 100%;
+	margin: 100px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	@media (max-width: 1300px) {
+		margin: 8vw 0;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+.item {
+	width: 50%;
+	padding: 0 20px;
+
+	text-align: center;
+
+	@media (max-width: 1300px) {
+		width: auto;
+		padding: 25px 0;
+	}
+
+	@media (max-width: 600px) {
+		padding: 4.2vw 0;
+	}
+}
+.content {
+	@media (max-width: 1300px) {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	&__title {
+		font-family: "Banny";
+		font-size: 36px;
+		line-height: 48px;
+		text-transform: uppercase;
+		text-align: center;
+
+		@media (max-width: 400px) {
+			font-size: 9vw;
+		}
+
+		&::after {
+			content: "";
+			display: block;
+			width: 60px;
+			height: 5px;
+			margin: 6px auto 10px;
+
+			background: #e8c300;
+			border-radius: 50px;
+		}
+	}
+	&__subtitle {
+		margin-bottom: 20px;
+
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 28px;
+		text-align: center;
+
+		@media (max-width: 400px) {
+			font-size: 4.5vw;
+			line-height: 7vw;
+		}
+	}
+	&__text {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+
+		@media (max-width: 580px) {
+			font-size: 10px;
+			line-height: 16px;
+		}
+	}
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	position: relative;
+
+	img {
+		max-width: 100%;
+
+		box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+		border-radius: 5px;
+
+		@media (max-width: 780px) {
+			width: 61vw;
+			height: 61vw;
+		}
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 250px;
+		height: 250px;
+		top: 50%;
+		z-index: 1;
+		transform: translateY(-50%);
+
+		border: 20px solid #e8c300;
+		box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.5), 0px 0px 100px rgba(0, 0, 0, 0.5);
+		border-radius: 5px;
+
+		@media (max-width: 780px) {
+			width: 32vw;
+			height: 32vw;
+
+			border-width: 2.2vw;
+		}
+	}
+
+	&_left {
+		justify-content: flex-end;
+
+		&::after {
+			right: 350px;
+
+			@media (max-width: 780px) {
+				right: 45vw;
+			}
+		}
+	}
+
+	&_right {
+		justify-content: flex-start;
+
+		&::after {
+			left: 350px;
+
+			@media (max-width: 780px) {
+				left: 45vw;
+			}
+		}
+	}
+}
+
+@import "_header";
+@import "_page";
+@import "_intro";
+@import "_about";
+@import "_team";
+@import "_book";
+@import "_specialties";
+@import "_menu";
+@import "_private";
+@import "_galerie";
+@import "_contact";
+@import "_footer";
+@import "_aos";

@@ -1,0 +1,31 @@
+/* ===================== galerie-page ===================== */
+.galerie-page {
+	// .galerie-page__images
+
+	&__images {
+		width: 100%;
+		display: flex;
+
+		@media (max-width: 380px) {
+			flex-wrap: wrap;
+		}
+	}
+
+	// .galerie-page__item
+
+	&__item {
+		flex: 1 1 auto;
+
+		@media (max-width: 380px) {
+			flex: 1 1 50%;
+		}
+
+		img {
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+	}
+}
+/* ===================== galerie-page end ================= */

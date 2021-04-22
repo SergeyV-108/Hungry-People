@@ -1,0 +1,27 @@
+/* ===================== aos ===================== */
+@media (min-width: 1400px) {
+	// ---- intro ----
+	[data-aos="rotate-animation"] {
+		transform: rotate(0);
+
+		&.aos-animate {
+			transform: rotate(360deg);
+		}
+	}
+
+	.center-intro__column_3,
+	[data-aos="rotate-animation"][data-aos-delay="4000"] [data-aos],
+	[data-aos][data-aos][data-aos-delay="4000"] {
+		transition-delay: 4000ms;
+	}
+
+	// ---- galerie ----
+	[data-aos="new-animation"] {
+		transform: translateX(400%);
+
+		&.aos-animate {
+			transform: translateX(0);
+		}
+	}
+}
+/* ===================== aos end ================= */
