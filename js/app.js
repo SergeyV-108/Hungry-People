@@ -50,7 +50,7 @@ for (let dataScroll of dataScrolls) {
 		if (!dataScroll.classList.contains('active')) {
 			for (let dataScroll of dataScrolls) {
 				dataScroll.classList.remove('active');
-			};
+			}
 
 			headerBurger.classList.remove('active');
 			headerNav.classList.remove('active');
@@ -88,8 +88,13 @@ for (let menuBtn of menuBtns) {
 //Вешается active на первый из menu__btn
 document.querySelector('.menu-page__btn').click();
 //===========================================================
-
-
+// ================= Инициализация анимации =================
+AOS.init({
+	disable: 'tablet',
+	disable: 'mobile',
+	disable: 'phone',
+});
+//===========================================================
 
 
 
