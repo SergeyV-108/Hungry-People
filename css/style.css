@@ -1180,6 +1180,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .menu-page__btn {
