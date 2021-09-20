@@ -660,6 +660,7 @@ body {
 
 .page__galerie {
   width: 100%;
+  overflow: hidden;
 }
 
 /* ===================== page end ================= */
