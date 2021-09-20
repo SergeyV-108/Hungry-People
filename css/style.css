@@ -1125,6 +1125,7 @@ body {
 /* ===================== specialties-page ===================== */
 .specialties-page__slider {
   min-width: 0;
+  flex: 1 1 auto;
 }
 
 .specialties-page__title {
