@@ -542,18 +542,16 @@ body {
     -webkit-transition: all 0.3s linear 0s;
     transition: all 0.3s linear 0s;
   }
-  .burger.active span:nth-child(2) {
-    opacity: 0;
-  }
   .burger.active span:nth-child(1) {
     -webkit-transform: translateY(7px) rotate(-45deg);
             transform: translateY(7px) rotate(-45deg);
-    
+  }
+  .burger.active span:nth-child(2) {
+    opacity: 0;
   }
   .burger.active span:nth-child(3) {
     -webkit-transform: translateY(-7px) rotate(45deg);
             transform: translateY(-7px) rotate(45deg);
-    
   }
 }
 
@@ -1125,6 +1123,10 @@ body {
 
 /* ===================== book-page end ================= */
 /* ===================== specialties-page ===================== */
+.specialties-page__slider {
+  min-width: 0;
+}
+
 .specialties-page__title {
   color: #ffffff;
 }
@@ -1661,53 +1663,6 @@ body {
 }
 
 /* ===================== footer end ================= */
-.map-footer__items {
-  width: 100%;
-  height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.map-footer__item {
-  width: 25%;
-  background-image: url(../image/map/1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.map-footer__items:hover .map-footer__item:nth-child(odd) {
-  -webkit-transform: skewY(15deg);
-          transform: skewY(15deg);
-  -webkit-box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
-          box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
-}
-
-.map-footer__items:hover .map-footer__item:nth-child(even) {
-  -webkit-transform: skewY(-15deg);
-          transform: skewY(-15deg);
-  -webkit-box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
-          box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
-}
-
-.map-footer__items .map-footer__item:nth-child(1) {
-  background-position: 0 0;
-}
-
-.map-footer__items .map-footer__item:nth-child(2) {
-  background-position: -25% 0;
-}
-
-.map-footer__items .map-footer__item:nth-child(3) {
-  background-position: -50% 0;
-}
-
-.map-footer__items .map-footer__item:nth-child(4) {
-  background-position: -75% 0;
-}
-
 /* ===================== aos ===================== */
 @media (min-width: 1400px) {
   [data-aos="rotate-animation"] {
