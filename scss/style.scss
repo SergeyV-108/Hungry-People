@@ -18,6 +18,7 @@ body {
 }
 
 .container {
+	width: 100%;
 	//min-width: 0; // для корректной работы внутри FLEX-элемента
 	flex: 1 1 auto;
 	max-width: 1310px;
@@ -74,13 +75,13 @@ body {
 
 .inner {
 	width: 100%;
-	margin: 100px 0;
+	padding: 100px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	
 	@media (max-width: 1300px) {
-		margin: 8vw 0;
+		padding: 8vw 0;
 		flex-direction: column;
 		justify-content: center;
 	}
@@ -101,6 +102,7 @@ body {
 		padding: 4.2vw 0;
 	}
 }
+
 .content {
 	@media (max-width: 1300px) {
 		width: 80%;
