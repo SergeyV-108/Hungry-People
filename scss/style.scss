@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-	min-width: 0; // для корректной работы внутри FLEX-элемента
+	//min-width: 0; // для корректной работы внутри FLEX-элемента
 	flex: 1 1 auto;
 	max-width: 1310px;
 	margin: 0 auto;

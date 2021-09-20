@@ -5,16 +5,15 @@
 	&__suptitle {
 	}
 
+	// .specialties-page__inner
+	&__inner {
+		min-width: 0;
+		flex: 1 1 auto;
+	}
+
 	// .specialties-page__slider
 
 	&__slider {
-	min-width: 0;
-	}
-
-	// .specialties-page__container
-
-	&__container {
-		
 	}
 
 	// .specialties-page__wrapper
@@ -22,9 +21,9 @@
 	&__wrapper {
 	}
 
-	// .specialties-page__inner
+	// .specialties-page__slide
 
-	&__inner {
+	&__slide {
 	}
 
 	// .specialties-page__item
