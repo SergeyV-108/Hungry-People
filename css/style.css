@@ -134,7 +134,7 @@ body {
 }
 
 .container {
-  min-width: 0;
+  width: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -193,7 +193,7 @@ body {
 
 .inner {
   width: 100%;
-  margin: 100px 0;
+  padding: 100px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,7 +207,7 @@ body {
 
 @media (max-width: 1300px) {
   .inner {
-    margin: 8vw 0;
+    padding: 8vw 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1123,9 +1123,16 @@ body {
 
 /* ===================== book-page end ================= */
 /* ===================== specialties-page ===================== */
-.specialties-page__slider {
+.specialties-page__body {
+  width: 100%;
   min-width: 0;
-  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.specialties-page__wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .specialties-page__title {
